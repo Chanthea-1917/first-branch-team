@@ -18,88 +18,69 @@ body {
     color: white;
     display: flex;
     justify-content: center;
+
     /* gap: 50px; */
     align-items: center;
     /* flex-decoration: none; */
     /* padding: 0 200px; */
+
     width: 100%;
     height: 50px;
     align-content: center;
     text-align: center;
     gap: 10px;
-    
 }
 .all-contact a{
     margin: 0 40px;
     text-decoration: none;
     color: white;
 }
-
     .contact-container {
       max-width: 600px;
       margin: auto;
-      /* background: white; */
+      background: white;
       padding: 30px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       border-radius: 10px;
     }
-body {
-      font-family: Arial, sans-serif;
-      /* background-color: #f8f9fa; */
-      margin: 0;
-      padding: 0;
-    }
 
-    .services-section {
-      max-width: 1200px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    .services-section h2 {
+    h2 {
       text-align: center;
       color: #333;
-      margin-bottom: 40px;
     }
 
-    .service-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+    label {
+      display: block;
+      margin-top: 15px;
+      color: #555;
     }
 
-    .service-box {
-      background-color: #fff;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
-      text-align: center;
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
     }
 
-    .service-box:hover {
-      transform: translateY(-5px);
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
     }
 
-    .service-icon {
-      font-size: 40px;
-      color: #007BFF;
-      margin-bottom: 15px;
+    button:hover {
+      background-color: #0056b3;
     }
 
-    .service-title {
-      font-size: 20px;
-      margin-bottom: 10px;
-      color: #333;
-    }
-
-    .service-desc {
-      color: #666;
+    .info {
+      margin-top: 30px;
       font-size: 14px;
-    }
-
-    @media (max-width: 600px) {
-      .service-icon {
-        font-size: 30px;
-      }
+      color: #666;
     }
